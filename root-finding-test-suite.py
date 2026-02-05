@@ -2,11 +2,13 @@ import matplotlib.pyplot as plt
 
 
 def f(x):
-    return x**2 - 4
+    # return x**2 - 4
+    return (x-1)**3
 
 
 def df(x):
-    return 2 * x
+    # return 2 * x
+    return 2 * (x**2)
 
 
 A, B = 0, 5
